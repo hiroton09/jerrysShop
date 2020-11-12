@@ -1,0 +1,103 @@
+body, section, img, h1, h2, h3, div, ul, li, p, a {
+    /* font-family: 'Patrick Hand', 'M PLUS Rounded 1c', cursive; */
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #ccc;
+}
+body {
+    margin: 0 5rem;
+}
+ul {
+    list-style: none;
+}
+.fa {
+    color: #ccc;
+}
+.black {
+    color: black;
+}
+
+hr {
+    margin-bottom: 5rem;
+    width: 90%;
+    color: #333;
+}
+section > h2 {
+    font-size: 4rem;
+    width: min-content;
+    padding: 0 2rem;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+    border-bottom: 1px solid #ccc;
+}
+.main, .footer {
+    margin-top: 5rem;
+}
+
+/* ========== header ========== */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+#navigation {
+    display: flex;
+    align-items: flex-end;
+    margin: 1rem 5rem;
+}
+#navigation > li:nth-child(-n + 3) {
+    margin-right: 2rem;
+    font-size: 1.4rem;
+}
+#navigation > li:last-child {
+    margin-left: auto;
+}
+.callGuide > p {
+    text-align: center;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* ========== main ========== */
+#priceList {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* ========== footer ========== */
+.access {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.access > iframe {
+    width: 40%;
+    margin-left: -10%;
+}
+.access > div > p {
+    width: 100%;
+    margin: auto 0;
+    margin-left: 20%;
+    font-size: 1.3rem;
+}
+#icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#icons > li:first-child {
+    margin-right: 2rem;
+}
+#icons > li > a > .fa:hover {
+    color: #FFDBC9;
+}
+.copy_write {
+    margin-top: 2rem;
+    margin: 0 -5rem;
+    padding: 1rem 0;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
